@@ -1,0 +1,6 @@
+<div class="doctor">
+    <h3>{{ doctor.nombre }} <fa-icon [ngStyle]="{color: 'green'}" [icon]="faCalendarCheck"></fa-icon> </h3>
+    <p>{{ 'Telefono: ' + doctor.telefono}}</p>
+    <p>{{ doctor.turno[0] + ': ' + doctor.especialidad[0]}}</p>
+    <p>{{ doctor.turno[1] + ': ' + doctor.especialidad[1]}}</p>
+</div>
