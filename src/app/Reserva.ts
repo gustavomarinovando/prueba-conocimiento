@@ -1,9 +1,7 @@
-export interface Doctor {
+export interface Reserva {
 		id?: number;
-		nombre: string;
-		direccion: string;
-		telefono: string;
-		fijo?: string;
-		especialidad: string[];
-		turno: string[]
+		paciente: string;
+		doctor: string;
+		especialidad: string;
+		turno: string;
 }
